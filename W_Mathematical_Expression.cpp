@@ -1,3 +1,6 @@
+// W. Mathematical Expression
+// link: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W 
+
 #include <bits/stdc++.h>
 using namespace std;
 
