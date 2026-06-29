@@ -22,6 +22,7 @@ int main() {
         prefix_sum[i] = prefix_sum[i-1] + v[i];
     }
 
+    // execution against test cases
     while (q--) {
 
         int l, r;
