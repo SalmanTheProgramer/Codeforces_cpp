@@ -6,12 +6,14 @@ int main() {
     int n, q;  
     cin >> n >> q;
     
+    // solving with vector instead of array
     vector <long long int> v(n);
     for (int i=0; i<n; i++) {
 
         cin >> v[i];
     }
 
+    // assigning prefix sum
     vector <long long int> prefix_sum(n);
     prefix_sum[0] = v[0]; // assigning the 1st val of prefix sum
 
